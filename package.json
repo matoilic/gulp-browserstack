@@ -1,8 +1,12 @@
 {
   "name": "gulp-browserstack",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Start and stop SSH tunnels to BrowserStack in your Gulp pipeline.",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/matoilic/gulp-browserstack.git"
