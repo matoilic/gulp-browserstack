@@ -1,0 +1,30 @@
+{
+  "name": "gulp-browserstack",
+  "version": "0.0.0",
+  "description": "Start and stop SSH tunnels to BrowserStack in your Gulp pipeline.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matoilic/gulp-browserstack.git"
+  },
+  "keywords": [
+    "browser-stack",
+    "browserstack",
+    "gulp",
+    "protractor",
+    "testing",
+    "test",
+    "e2e",
+    "test-e2e"
+  ],
+  "author": "Mato Ilic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matoilic/gulp-browserstack/issues"
+  },
+  "homepage": "https://github.com/matoilic/gulp-browserstack#readme",
+  "dependencies": {
+    "browserstacktunnel-wrapper": "^1.4.0",
+    "through2": "^2.0.0"
+  }
+}
