@@ -27,8 +27,16 @@
     "url": "https://github.com/matoilic/gulp-browserstack/issues"
   },
   "homepage": "https://github.com/matoilic/gulp-browserstack#readme",
+  "scripts": {
+    "test": "gulp test"
+  },
   "dependencies": {
     "browserstacktunnel-wrapper": "^1.4.0",
     "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-protractor": "^1.0.0",
+    "gulp-util": "^3.0.7"
   }
 }

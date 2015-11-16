@@ -21,3 +21,7 @@ gulp
 ```
 
 You will find the access key in your BrowserStack account details.
+
+##Running the test
+
+The test runner expects to find the API key and the BrowserStack username in the environment variables `BROWSERSTACK_KEY` and `BROWSERSTACK_USER`.
