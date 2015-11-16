@@ -1,6 +1,6 @@
 {
   "name": "gulp-browserstack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Start and stop SSH tunnels to BrowserStack in your Gulp pipeline.",
   "main": "index.js",
   "files": [
