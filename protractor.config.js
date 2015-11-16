@@ -14,8 +14,8 @@ exports.config = {
         'browserstack.local' : 'true',
         'browserstack.debug': 'false',
 
-        'name': 'DPB CDS',
-        'build': process.env.USERNAME + '@' + process.env.COMPUTERNAME,
+        'name': 'Gulp Browserstack',
+        'build': 'local',
 
         'browserName': 'Chrome',
         'browser': 'Chrome',
