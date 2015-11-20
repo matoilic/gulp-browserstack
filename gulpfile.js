@@ -7,7 +7,7 @@ gulp.task('webdriver-update', protractor.webdriver_update);
 gulp.task('webdriver-standalone', protractor.webdriver_standalone);
 
 gulp.task('test', ['webdriver-update'], function() {
-    gulp
+    return gulp
         .src('test.js')
         .pipe(tunnel.startTunnel({
             key: process.env.BROWSERSTACK_KEY
