@@ -2,7 +2,6 @@ exports.config = {
     baseUrl: 'https://google.com',
     rootElement: 'body',
     framework: 'jasmine2',
-    specs: ['test.js'],
     maxSessions: 1,
     jasmineNodeOpts: {
         defaultTimeoutInterval: 360000
