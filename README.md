@@ -1,6 +1,6 @@
 #Gulp BrowserStack
 
-Start and SSH tunnel before you run your e2e tests in Gulp and tear it down properly afterwards. See the [BrowserStackTunnelWrapper](https://github.com/pghalliday/node-BrowserStackTunnel) documentation for an overview of the available options.
+Start a SSH tunnel before you run your e2e tests in Gulp and tear it down properly afterwards. See the [BrowserStackTunnelWrapper](https://github.com/pghalliday/node-BrowserStackTunnel) documentation for an overview of the available options.
 
 ##Example
 
